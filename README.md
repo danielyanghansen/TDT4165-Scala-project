@@ -85,8 +85,51 @@
 
   Create a function that prints the current `counter` variable. Start three threads, two that initialize `increaseCounter` and one that initialize the print function. Run your program a few times and notice the print output. What is this phenomenon called? Give one example of a situation where it can be problematic.
 
+
+  With main as:
+  ```Scala
+  def main(args: Array[String]) = {
+        val threads = Array(
+            createThread(() => increaseCounter()),
+            createThread(() => increaseCounter()),
+            createThread(() => increaseCounter()),
+            createThread(() => increaseCounter()),
+            createThread(() => increaseCounter()),           
+            createThread(() => printCounter()),
+        )
+        for thread <- threads do
+            thread.start()      
+    }
+  ```
+
   - Output:
 
+    ```
+    increase from 0 to    1
+    Counter is at 0
+    increase from 0 to    1
+    increase from 0 to    1
+    increase from 0 to    1
+    increase from 0 to    1
+
+    ```
+
+  This phenomenon is called `race conditions`. It occurs when two or more threads try to change (or access) the same variable, with the assumption that each thread's action is dependent on another's. It can be problematic while performing mathematical operations in which certain steps are dependent each other.
+  A race condition is not really problematic if all the operations within the set of "race-able" operations are memory read-only.
+
+- **(c) Change `increaseCounter` so that it is thread-safe. Hint: atomicity. (13p)**
+
+  ```scala
+  def increaseCounter(): Unit = synchronized {
+        println("lock...")
+        println(f"increase from $counter%d to ${counter+1}%4d")
+        counter += 1
+        println("unlock...")
+    }
+  ```
+
+  However, because the `printCounter` thread hasn't set up any dependencies or synchronization barriers, its timing is somewhat arbitrary. 
+  Output (when we also print Thread Number):
   ```
   lock...
   increase from 0 to    1
@@ -109,21 +152,6 @@
   increase from 4 to    5
   unlock...
   Thread 2
-
-  ```
-
-  This phenomenon is called `race conditions`. It occurs when two or more threads try to change (or access) the same variable, with the assumption that each thread's action is dependent on another's. It can be problematic while performing mathematical operations in which certain steps are dependent each other.
-  A race condition is not really problematic if all the operations within the set of "race-able" operations are memory read-only.
-
-- **(c) Change `increaseCounter` so that it is thread-safe. Hint: atomicity. (13p)**
-
-  ```scala
-  def increaseCounter(): Unit = synchronized {
-        println("lock...")
-        println(f"increase from $counter%d to ${counter+1}%4d")
-        counter += 1
-        println("unlock...")
-    }
   ```
 
 - **(d) One problem you will often meet in concurrency programming is deadlock. What is deadlock, and what can be done to prevent it? Write in Scala an example of a deadlock using `lazy val`. (14p)**
@@ -132,10 +160,10 @@
     - For lazy evaluation: avoid circular dependencies
     - For different threads: if the threads are dependent on each other, design this dependency to be "staggered" (often based on thread ID), and make sure that locking of resources is done in an order that prevents the threads from waiting for each other to unlock resources.
     - In general: Eliminiate the 4 necessary conditions for deadlocks:
-      - `Mutual exclusion` - Two or more processes trying to access the same unshareable
+      - `Mutual exclusion` - Two or more processes trying to access the same unshareable resource
       - `Hold-and-wait` - A process holding (and blocking) one resource while waiting for access to another resource which is blocked by another process
-      - `No preemption` -
-      - `Circular Wait` -
+      - `No preemption` - If a process is holding a resource, that resource cannot be forcibly released from another process (like a master thread)
+      - `Circular Wait` - When one process is waiting for a resource, which is held by the second process, which is also waiting for a resource held by the third process etc (which is waiting for a resource held by the first process).
 
   ```scala
   lazy val deadlock1: Int = {
