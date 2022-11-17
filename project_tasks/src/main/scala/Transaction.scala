@@ -12,38 +12,28 @@ class TransactionQueue {
   // Add datastructure to contain the transactions
   private var queue: Queue[Transaction] = Queue()
 
-  private def mutateQueue(
-      function: Queue[Transaction] => Queue[Transaction]
-  ): Unit =
+  private def mutateQueue[ReturnType](
+      function: Queue[Transaction] => (
+          ReturnType,
+          Queue[Transaction]
+      )
+  ): ReturnType =
     synchronized {
-      this.queue = function(queue)
+      val result = function(queue)
+      this.queue = result._2
+      result._1
     }
 
   // Remove and return the first element from the queue
-  def pop: Transaction = {
-    val function: Queue[Transaction] => Queue[Transaction] =
-      (queue: Queue[Transaction]) => queue.dequeue._2
-    mutateQueue((queue: Queue[Transaction]) => {
-      queue.dequeue match {
-        case (head, tail) =>
-          tail
-      }
-      Queue[Transaction]()
-    })
-  }
-// def pq(q: Queue[List[Any]]): Unit = {
-//   q.dequeue match {
-//     case (head, tail) =>
-//       println(head + "..."); // ... process head element ...
-//       if (tail.nonEmpty) pq(tail)
-//   }
-// }
+  def pop: Transaction =
+    mutateQueue[Transaction]((queue: Queue[Transaction]) => queue.dequeue)
 
   // Return whether the queue is empty
   def isEmpty: Boolean = queue.isEmpty
 
   // Add new element to the back of the queue
-  def push(t: Transaction): Unit = mutateQueue(queue => queue.enqueue(t))
+  def push(t: Transaction): Unit =
+    mutateQueue[Unit](queue => (Unit, queue.enqueue(t)))
 
   // Return the first element from the queue without removing it
   def peek: Transaction = queue.head
