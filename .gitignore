@@ -1,2 +1,5 @@
 **/*.class
 **/*.tasty
+
+project_tasks/project
+project_tasks/target
