@@ -16,7 +16,7 @@ class Account(val bank: Bank, initialBalance: Double) {
       if (amount < 0) {
         Right("Invalid amount")
       } else if (amount > balance.amount) {
-        Right("Insufficient funds")
+        Right("Insufficient funds: Tried to withdraw " + amount + " from " + balance.amount)
       } else {
         balance.amount -= amount
         Left(Unit)

@@ -17,12 +17,13 @@ class TransactionQueue {
           ReturnType,
           Queue[Transaction]
       )
-  ): ReturnType =
+  ): ReturnType = {
     synchronized {
       val result = function(queue)
       this.queue = result._2
       result._1
     }
+  }
 
   // Remove and return the first element from the queue
   def pop: Transaction =
@@ -59,17 +60,54 @@ class Transaction(
     def doTransaction() = {
       // TODO - project task 3
       // Extend this method to satisfy requirements.
-      from withdraw amount
-      to deposit amount
+      attempt += 1
+      val withdrawResult = from withdraw(amount)
+      withdrawResult match {
+        case Left(_) => {
+          val depositResult = to deposit(amount)
+          depositResult match {
+            case Left(_) => {
+              status = TransactionStatus.SUCCESS
+            }
+            case Right(string) => {
+              println(string)
+              from deposit(amount)
+              if (attempt < allowedAttemps) {
+                status = TransactionStatus.PENDING
+              } else {
+                status = TransactionStatus.FAILED
+              }
+            }
+          }
+        }
+        case Right(string) => {
+          //println(string) //Commented out so the test output is cleaner
+          if (attempt < allowedAttemps) {
+            status = TransactionStatus.PENDING
+          } else {
+            status = TransactionStatus.FAILED
+          }
+          
+        }
+      }
     }
 
     // TODO - project task 3
     // make the code below thread safe
+    synchronized {
     if (status == TransactionStatus.PENDING) {
-      doTransaction
-      Thread.sleep(50) // you might want this to make more room for
-      // new transactions to be added to the queue
-    }
+      if (attempt < allowedAttemps) {
+        doTransaction()
+        Thread.sleep(50)
 
+      // you might want this to make more room for
+      // new transactions to be added to the queue
+      } else {
+        status = TransactionStatus.FAILED
+        print("Too many attempts")
+      }
+    
+    }}
   }
 }
+
