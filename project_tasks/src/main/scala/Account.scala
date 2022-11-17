@@ -11,11 +11,34 @@ class Account(val bank: Bank, initialBalance: Double) {
   // for project task 1.3: change return type and update function bodies
   def withdraw(
       amount: Double
-  ): Either[Unit, Either[IllegalAmountException, NoSufficientFundsException]] =
-    balance.amount -= amount
-  def deposit(amount: Double): Either[Unit, NoSufficientFundsException] =
-    balance.amount += amount
-  def getBalanceAmount: Double = balance.amount
+  ): Either[Unit, String] =
+    synchronized {
+      if (amount < 0) {
+        Right("Invalid amount")
+      } else if (amount > balance.amount) {
+        Right("Insufficient funds")
+      } else {
+        balance.amount -= amount
+        Left(Unit)
+      }
+    }
+
+  def deposit(
+    amount: Double
+  ): Either[Unit, String] =
+    if (amount < 0) {
+      Right("Invalid amount")
+    } else {
+      synchronized {
+        balance.amount += amount
+      }  
+      Left(Unit)
+    }
+    
+  def getBalanceAmount: Double = 
+    synchronized {
+      balance.amount
+    }
 
   def transferTo(account: Account, amount: Double) = {
     bank addTransactionToQueue (this, account, amount)

@@ -2,4 +2,5 @@
 **/*.tasty
 
 project_tasks/project
+project_tasks/.bsp
 project_tasks/target
