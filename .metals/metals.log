@@ -1,0 +1,374 @@
+2022.11.17 10:44:31 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/.metals/lsp.trace.json or /Users/eik/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.11.17 10:44:31 INFO  logging to file /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/.metals/metals.log
+2022.11.17 10:44:31 INFO  Started: Metals version 0.11.9 in workspace '/Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project' for client Visual Studio Code 1.73.1.
+2022.11.17 10:44:33 INFO  time: initialize in 1.88s
+2022.11.17 10:44:34 WARN  Build server is not auto-connectable.
+2022.11.17 10:44:34 WARN  no build tool detected in workspace '/Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.11.17 10:44:34 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 10:44:34 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Bank.scala
+2022.11.17 10:44:34 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Main.scala
+2022.11.17 10:44:41 INFO  no build target found for /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Bank.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.17 10:44:43 INFO  time: code lens generation in 7.62s
+2022.11.17 10:44:43 INFO  time: code lens generation in 4.62s
+2022.11.17 10:44:53 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 10:44:59 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.2.7/sourcecode_2.13-0.2.7.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.jar
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.2.7/sourcecode_2.13-0.2.7.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.jar
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar
+2022.11.17 10:45:26 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+Nov 17, 2022 10:45:38 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.11.17 10:46:10 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/test/scala/AccountTests.scala
+2022.11.17 10:46:56 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 10:47:06 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 10:48:12 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Main.scala
+2022.11.17 10:48:42 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/tasks/task1.scala
+2022.11.17 10:48:42 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Main.scala
+2022.11.17 10:48:43 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/tasks/task1.scala
+2022.11.17 10:49:00 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Main.scala
+2022.11.17 10:49:36 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Account.scala
+2022.11.17 10:49:36 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Main.scala
+2022.11.17 10:49:58 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Main.scala
+2022.11.17 10:49:59 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Main.scala
+2022.11.17 10:50:01 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Main.scala
+2022.11.17 10:50:32 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 10:50:47 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Bank.scala
+error while checking new Bank(null)
+error while checking var bank = new Bank(null)
+error while checking {
+  var bank = new Bank(null)
+  <empty>
+}
+error while checking def main(args: Array[String]) = 
+  {
+    var bank = new Bank(null)
+    <empty>
+  }
+error while checking  extends App {
+  def main(args: Array[String]) = 
+    {
+      var bank = new Bank(null)
+      <empty>
+    }
+  def thread(body: => Unit): Thread = 
+    {
+      val t = 
+        new Thread {
+          override def run() = body
+        }
+      t.start
+      t
+    }
+}
+error while checking module object Main extends App {
+  def main(args: Array[String]) = 
+    {
+      var bank = new Bank(null)
+      <empty>
+    }
+  def thread(body: => Unit): Thread = 
+    {
+      val t = 
+        new Thread {
+          override def run() = body
+        }
+      t.start
+      t
+    }
+}
+error while checking package <empty> {
+  module object Main extends App {
+    def main(args: Array[String]) = 
+      {
+        var bank = new Bank(null)
+        <empty>
+      }
+    def thread(body: => Unit): Thread = 
+      {
+        val t = 
+          new Thread {
+            override def run() = body
+          }
+        t.start
+        t
+      }
+  }
+}
+Nov 17, 2022 10:51:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: position error, parent span does not contain child span
+parent      = new Bank(null) # -1,
+parent span = <77..377>,
+child       = null # -1,
+child span  = [86..380..380]
+java.lang.AssertionError: assertion failed: position error, parent span does not contain child span
+parent      = new Bank(null) # -1,
+parent span = <77..377>,
+child       = null # -1,
+child span  = [86..380..380]
+	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:8)
+	at dotty.tools.dotc.ast.Positioned.check$1(Positioned.scala:172)
+	at dotty.tools.dotc.ast.Positioned.check$1$$anonfun$3(Positioned.scala:202)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.ast.Positioned.check$1(Positioned.scala:202)
+	at dotty.tools.dotc.ast.Positioned.checkPos(Positioned.scala:223)
+	at dotty.tools.dotc.ast.Positioned.check$1(Positioned.scala:197)
+	at dotty.tools.dotc.ast.Positioned.checkPos(Positioned.scala:223)
+	at dotty.tools.dotc.ast.Positioned.check$1(Positioned.scala:197)
+	at dotty.tools.dotc.ast.Positioned.check$1$$anonfun$3(Positioned.scala:202)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.ast.Positioned.check$1(Positioned.scala:202)
+	at dotty.tools.dotc.ast.Positioned.checkPos(Positioned.scala:223)
+	at dotty.tools.dotc.ast.Positioned.check$1(Positioned.scala:197)
+	at dotty.tools.dotc.ast.Positioned.checkPos(Positioned.scala:223)
+	at dotty.tools.dotc.ast.Positioned.check$1(Positioned.scala:197)
+	at dotty.tools.dotc.ast.Positioned.check$1$$anonfun$3(Positioned.scala:202)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.ast.Positioned.check$1(Positioned.scala:202)
+	at dotty.tools.dotc.ast.Positioned.checkPos(Positioned.scala:223)
+	at dotty.tools.dotc.ast.Positioned.check$1(Positioned.scala:197)
+	at dotty.tools.dotc.ast.Positioned.checkPos(Positioned.scala:223)
+	at dotty.tools.dotc.ast.Positioned.check$1(Positioned.scala:197)
+	at dotty.tools.dotc.ast.Positioned.check$1$$anonfun$3(Positioned.scala:202)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.ast.Positioned.check$1(Positioned.scala:202)
+	at dotty.tools.dotc.ast.Positioned.checkPos(Positioned.scala:223)
+	at dotty.tools.dotc.parsing.Parser.parse$$anonfun$1(ParserPhase.scala:38)
+	at dotty.tools.dotc.parsing.Parser.parse$$anonfun$adapted$1(ParserPhase.scala:39)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:417)
+	at dotty.tools.dotc.parsing.Parser.parse(ParserPhase.scala:39)
+	at dotty.tools.dotc.parsing.Parser.runOn$$anonfun$1(ParserPhase.scala:48)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.parsing.Parser.runOn(ParserPhase.scala:48)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:234)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:245)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:253)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:262)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:68)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:262)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:186)
+	at dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:165)
+	at scala.meta.internal.pc.MetalsDriver.run(MetalsDriver.scala:48)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:41)
+
+2022.11.17 10:51:17 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Main.scala
+2022.11.17 10:51:42 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Main.scala
+2022.11.17 10:52:14 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Main.scala
+2022.11.17 10:52:37 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Main.scala
+2022.11.17 10:52:53 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Main.scala
+2022.11.17 10:53:08 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Account.scala
+2022.11.17 10:58:56 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 10:59:14 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 10:59:17 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 10:59:18 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 10:59:29 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/tasks/task2.scala
+2022.11.17 10:59:29 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:00:15 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:00:19 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:02:11 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+Nov 17, 2022 11:07:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 0
+java.lang.IndexOutOfBoundsException: 0
+	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:131)
+	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:128)
+	at scala.collection.immutable.List.apply(List.scala:79)
+	at dotty.tools.dotc.util.Signatures$.countParams(Signatures.scala:436)
+	at dotty.tools.dotc.util.Signatures$.applyCallInfo(Signatures.scala:156)
+	at dotty.tools.dotc.util.Signatures$.computeSignatureHelp(Signatures.scala:91)
+	at dotty.tools.dotc.util.Signatures$.signatureHelp(Signatures.scala:61)
+	at scala.meta.internal.pc.MetalsSignatures$.signatures(MetalsSignatures.scala:22)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:56)
+
+2022.11.17 11:08:01 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:08:13 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:09:02 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:09:17 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:09:19 ERROR scalafmt: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala:23: error: [dialect scala213] ) expected but => found
+  def pop: Transaction = mutateQueue((immutable.Queue[Transaction] queue) => queue.dequeue)
+                                                                          ^
+2022.11.17 11:09:19 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:09:33 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:10:34 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:10:35 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:11:14 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:11:14 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:11:14 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:11:14 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:11:56 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+Nov 17, 2022 11:12:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 0
+java.lang.IndexOutOfBoundsException: 0
+	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:131)
+	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:128)
+	at scala.collection.immutable.List.apply(List.scala:79)
+	at dotty.tools.dotc.util.Signatures$.countParams(Signatures.scala:436)
+	at dotty.tools.dotc.util.Signatures$.applyCallInfo(Signatures.scala:156)
+	at dotty.tools.dotc.util.Signatures$.computeSignatureHelp(Signatures.scala:91)
+	at dotty.tools.dotc.util.Signatures$.signatureHelp(Signatures.scala:61)
+	at scala.meta.internal.pc.MetalsSignatures$.signatures(MetalsSignatures.scala:22)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:56)
+
+2022.11.17 11:12:02 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:12:25 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:12:55 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:13:13 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:13:14 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:13:14 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:13:37 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:13:51 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+Nov 17, 2022 11:15:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 0
+java.lang.IndexOutOfBoundsException: 0
+	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:131)
+	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:128)
+	at scala.collection.immutable.List.apply(List.scala:79)
+	at dotty.tools.dotc.util.Signatures$.countParams(Signatures.scala:436)
+	at dotty.tools.dotc.util.Signatures$.applyCallInfo(Signatures.scala:156)
+	at dotty.tools.dotc.util.Signatures$.computeSignatureHelp(Signatures.scala:91)
+	at dotty.tools.dotc.util.Signatures$.signatureHelp(Signatures.scala:61)
+	at scala.meta.internal.pc.MetalsSignatures$.signatures(MetalsSignatures.scala:22)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:56)
+
+2022.11.17 11:15:58 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:16:27 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:16:29 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:16:29 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:16:29 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:18:48 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:19:31 ERROR scalafmt: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala:24: error: [dialect scala213] = expected but } found
+    mutateQueue((queue: Queue[Transaction]) => { val queue.dequeue._2 })
+                                                                      ^
+2022.11.17 11:19:31 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:19:37 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:19:44 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:19:59 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+Nov 17, 2022 11:19:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2566
+2022.11.17 11:19:59 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+Nov 17, 2022 11:20:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2616
+Nov 17, 2022 11:20:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2617
+2022.11.17 11:20:06 ERROR scalafmt: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala:15: error: [dialect scala213] expected start of definition
+  private  synchronized def  mutateQueue(
+           ^
+2022.11.17 11:20:06 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:20:24 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:20:34 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:21:01 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:21:21 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:21:22 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:21:49 ERROR scalafmt: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala:25: error: [dialect scala213] is not a valid refinement declaration
+      val a: (Transaction, Queue[Transaction]) = queue.dequeue
+      ^
+2022.11.17 11:21:49 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:23:23 ERROR scalafmt: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala:25: error: [dialect scala213] is not a valid refinement declaration
+      val a: (Transaction, Queue[Transaction]) = queue.dequeue
+      ^
+2022.11.17 11:23:23 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:23:47 ERROR scalafmt: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala:25: error: [dialect scala213] illegal start of declaration
+      queue.dequeue._2
+      ^
+2022.11.17 11:23:47 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:24:03 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:29:56 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:30:59 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:32:11 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+Nov 17, 2022 11:34:04 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 0
+java.lang.IndexOutOfBoundsException: 0
+	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:131)
+	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:128)
+	at scala.collection.immutable.List.apply(List.scala:79)
+	at dotty.tools.dotc.util.Signatures$.countParams(Signatures.scala:436)
+	at dotty.tools.dotc.util.Signatures$.applyCallInfo(Signatures.scala:156)
+	at dotty.tools.dotc.util.Signatures$.computeSignatureHelp(Signatures.scala:91)
+	at dotty.tools.dotc.util.Signatures$.signatureHelp(Signatures.scala:61)
+	at scala.meta.internal.pc.MetalsSignatures$.signatures(MetalsSignatures.scala:22)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:56)
+
+Nov 17, 2022 11:34:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 0
+java.lang.IndexOutOfBoundsException: 0
+	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:131)
+	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:128)
+	at scala.collection.immutable.List.apply(List.scala:79)
+	at dotty.tools.dotc.util.Signatures$.countParams(Signatures.scala:436)
+	at dotty.tools.dotc.util.Signatures$.applyCallInfo(Signatures.scala:156)
+	at dotty.tools.dotc.util.Signatures$.computeSignatureHelp(Signatures.scala:91)
+	at dotty.tools.dotc.util.Signatures$.signatureHelp(Signatures.scala:61)
+	at scala.meta.internal.pc.MetalsSignatures$.signatures(MetalsSignatures.scala:22)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:56)
+
+2022.11.17 11:34:47 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:40:16 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:40:44 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:41:30 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:42:22 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
+2022.11.17 11:43:20 WARN  no build target for: /Users/eik/code/ntnu/TDT4165/TDT4165-Scala-project/project_tasks/src/main/scala/Transaction.scala
